@@ -1,0 +1,192 @@
+@media (max-width: 767px) {
+
+    .header,
+    .menu {
+        display: none;
+    }
+
+    .connection__title,
+    .strengths__title,
+    .offer__phrase,
+    .slider__title {
+        font-size: 24px;
+    }
+
+    .info__text {
+        padding: 0;
+    }
+
+    .info__title {
+        font-size: 36px;
+    }
+
+    .info__item {
+        text-align: center;
+    }
+
+    .info__button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .info__image {
+        display: block;
+        width: 90%;
+        padding: 0;
+        margin: 20px auto;
+    }
+
+    .history__image {
+        width: 90%;
+        margin: 5% auto;
+    }
+
+    .history__title,
+    .history__text {
+        text-align: center;
+    }
+
+    .hr {
+        margin: 10px auto;
+    }
+
+    .connection {
+        padding: 10px 0;
+    }
+
+    .connection__text {
+        font-size: 18px;
+    }
+
+    .form__input {
+        width: 50%;
+        padding: 5px 10px;
+    }
+
+    .form__button {
+        width: 35%;
+        padding: 5px 10px;
+    }
+
+    .connection__rules {
+        font-size: 8px;
+    }
+
+    .quality__block {
+        margin: 2.5% auto;
+    }
+
+    .text__promo {
+        font-size: 16px;
+    }
+
+    .text__info {
+        font-size: 14px;
+    }
+
+    .quality__image {
+        width: 20px;
+        height: 20px;
+    }
+
+    .discount__container {
+        flex-wrap: wrap;
+    }
+
+    .discount__image {
+        min-width: 100%;
+        margin: 30px auto;
+    }
+
+    .discount__info {
+        min-width: 100%;
+    }
+
+    .offer__price {
+        font-size: 48px;
+    }
+
+    .offer__text {
+        font-size: 16px;
+    }
+
+    .about-work__title {
+        font-size: 32px;
+    }
+
+    .stage {
+        width: 80%;
+    }
+
+    .slider {
+        padding: 20px;
+    }
+
+    .review__text {
+        font-size: 16px;
+    }
+
+    .review__stars {
+        width: 150px;
+        padding: 10px;
+    }
+
+    .review__author {
+        font-size: 12px;
+    }
+
+    .contacts__container {
+        position: relative;
+    }
+
+    .contacts {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        top: 0;
+    }
+
+    .footer__rules,
+    .footer__order,
+    .footer__about-service,
+    .footer__advice {
+        text-align: center;
+    }
+
+    .more__details {
+        display: none;
+    }
+
+
+    .more__details-mobile {
+        display: flex;
+        opacity: 1;
+        z-index: 10;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .header {
+        display: none;
+    }
+
+    .menu__list {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .discount__image {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .discount__info {
+        width: 100%
+    }
+}

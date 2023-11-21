@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Квас. Заказать квас. Квас лучший. Доставка. Доставка квас">
+    <meta name="description" content="Сайт магазина кваса">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>CopyHaier</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__logo" src="img/logo.png" alt="logo company">
+
+        <p class="header__timetable">
+            Доставка кваса ежедневно<br>
+            Время работы: <br>
+            С 8:00 до 22:00
+        </p>
+
+        <div class="image__container">
+            <img class="header__image" src="img/phone.png" alt="image phone">
+            <!--Можно и через <i> с before фотку добавлять, но решил не жертвовать контентной семантикой-->
+            <!--Также есть вариант с picture, но функционал picture в данном проекте мне не нужен, поэтому img-->
+            <a class="header__link-phone" href="tel:+79990000000">+79990000000</a>
+        </div>
+
+        <div class="image__container">
+            <img class="header__image" src="img/place.png" alt="image location">
+            <p class="header__tagline">
+                Курьер приедет<br>
+                В любой район вашего города<br>
+                (до 20км от самого города)
+            </p>
+        </div>
+
+        <button class="header__button" type="button">Заказать квас</button>
+    </header>
+
+    <nav class="menu">
+        <div class="menu__container">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="#">Вятский</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Тимур</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Жатец</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Сибирский</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Лесной</a></li>
+            </ul>
+            <div class="burger-menu">
+                <img class="burger__image" src="img/logo.png" alt="logo company">
+                <div class="burger__icon">☰</div>
+            </div>
+            <ul class="mobile-menu">
+                <div class="mobile-menu__close">&#11198;</div>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Вятский</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Тимур</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Жатец</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Сибирский</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Лесной</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <section class="info">
+            <div class="info__container">
+                <div class="info__text">
+                    <h1 class="info__title">Любимый квас в вашем городе</h1>
+                    <ul class="info__list">
+                        <li class="info__item">Вкусный</li>
+                        <li class="info__item">Свежий</li>
+                        <li class="info__item">Полезный</li>
+                        <li class="info__item">Варим сами</li>
+                        <li class="info__item">Не экономим на продуктах</li>
+                    </ul>
+                    <button class="info__button">Купить сейчас</button>
+                </div>
+
+                <img class="info__image" src="img/kvas.png" alt="photo kvas">
+            </div>
+        </section>
+
+        <section class="tariff">
+            <div class="tariff__container">
+                <h2 class="tariff__title">Стоимость продукта</h2>
+
+                <ul class="tariff__list">
+                    <li class="tariff__item">
+                        <p class="item__name">"Вятский витязь"</p>
+                        <div class="item__block">
+                            <p class="block__price">170р</p>
+                            <button class="block__button">Купить</button>
+                        </div>
+                    </li>
+
+                    <li class="tariff__item">
+                        <p class="item__name">"Русский дух"</p>
+                        <div class="item__block">
+                            <p class="block__price">190р</p>
+                            <button class="block__button">Купить</button>
+                        </div>
+                    </li>
+
+                    <li class="tariff__item">
+                        <p class="item__name">"Дубовый лес"</p>
+                        <div class="item__block">
+                            <p class="block__price">130р</p>
+                            <button class="block__button">Купить</button>
+                        </div>
+                    </li>
+
+                    <li class="tariff__item">
+                        <p class="item__name">"Сибирь"</p>
+                        <div class="item__block">
+                            <p class="block__price">150р</p>
+                            <button class="block__button">Купить</button>
+                        </div>
+                    </li>
+
+                    <li class="tariff__item">
+                        <p class="item__name">"Русская дубрава"</p>
+                        <div class="item__block">
+                            <p class="block__price">210р</p>
+                            <button class="block__button">Купить</button>
+                        </div>
+                    </li>
+
+                    <li class="tariff__item">
+                        <p class="item__name">"Тимур"</p>
+                        <div class="item__block">
+                            <p class="block__price">250р</p>
+                            <button class="block__button">Купить</button>
+                        </div>
+                    </li>
+
+                    <li class="tariff__item">
+                        <p class="item__name">"Жатец"</p>
+                        <div class="item__block">
+                            <p class="block__price">320р</p>
+                            <button class="block__button">Купить</button>
+                        </div>
+                    </li>
+
+                    <li class="tariff__item">
+                        <p class="item__name">"Мишка"</p>
+                        <div class="item__block">
+                            <p class="block__price">390р</p>
+                            <button class="block__button">Купить</button>
+                        </div>
+                    </li>
+
+                </ul>
+        </section>
+
+        <section class="history">
+
+            <img class="history__image" src="img/history.jpg" alt="photo history">
+            <div class="history__text">
+                <h3 class="history__title">Немного истории</h3>
+                <hr class="hr">
+                <p class="history__info">Квас на Руси появился в X-XI веке.
+                    Само слово «квас» тоже имеет древнерусское происхождение.
+                    Помимо России квас готовят в Белоруссии, Сербии, Македонии,
+                    Словакии и многих других странах, но называется
+                    он везде одинаково — квас.
+                </p>
+                <p class="history__fact">Мы относимся с уважением к истории, поэтому наши отделения есть и в:</p>
+                <ul class="history__list">
+                    <li class="history__item">Минске</li>
+                    <li class="history__item">Братиславе</li>
+                    <li class="history__item">Белграде</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="connection">
+            <div class="connection__container">
+                <h3 class="connection__title">Хотите квас по собственному рецепту?</h3>
+                <p class="connection__text">Оставьте заявку и наш специалист вас проконсультирует</p>
+                <form class="connection__form" autocomplete="off">
+                    <input class="form__input" type="tel" name="phone" placeholder="+7 (999) 999-99-99">
+                    <button class="form__button">Оставить заявку</button>
+                </form>
+                <p class="connection__rules"><i> Заполнив форму, вы даете нам право на обработку
+                        своих персональных данных. Посмотреть политику
+                        в отношении обработки персональных данных можно <a class="rules__link" href="#">здесь</a></i>
+                </p>
+            </div>
+        </section>
+
+        <section class="strengths">
+            <h3 class="strengths__title">Почему именно мы?</h3>
+            <div class="strengths__quality">
+                <div class="quality__block">
+                    <img class="quality__image" src="img/icon-brew.png" alt="photo quality">
+                    <div class="quality__text">
+                        <p class="text__promo"><span class="best">Лучшие</span> в стране</p>
+                        <p class="text__info">Наш квас лучший по мнению 10 топовых экспертов</p>
+                    </div>
+                </div>
+
+                <div class="quality__block">
+                    <img class="quality__image" src="img/icon-thumbsup.png" alt="photo quality">
+                    <div class="quality__text">
+                        <p class="text__promo"><span class="best">Чемпионы</span> качества</p>
+                        <p class="text__info">Наш квас номинирован на лучший квас страны</p>
+                    </div>
+                </div>
+
+                <div class="quality__block">
+                    <img class="quality__image" src="img/icon-thumbsup.png" alt="photo quality">
+                    <div class="quality__text">
+                        <p class="text__promo"><span class="best">Вкус</span> детства</p>
+                        <p class="text__info">Наш квас погружает в воспоминания о беззаботных деньках</p>
+                    </div>
+                </div>
+
+                <div class="quality__block">
+                    <img class="quality__image" src="img/icon-matreshka.png" alt="photo quality">
+                    <div class="quality__text">
+                        <p class="text__promo"><span class="best">Качественные</span> продукты</p>
+                        <p class="text__info">Наш квас варится только из отборных ингредиенты.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="discount">
+            <div class="discount__container">
+                <img class="discount__image" src="img/dis-1.jpg" alt="kvas photo">
+                <div class="discount__info">
+                    <div class="discount__offer">
+                        <p class="offer__phrase">Получите <span class="best">СКИДКУ</span></p>
+                        <p class="offer__price">20%</p>
+                    </div>
+                    <p class="offer__text">
+                        Оставьте заявку на покупку кваса прямо
+                        сейчас и получите скидку 20%
+                    </p>
+                    <button class="discount__button">Заказать со скидкой</button>
+                </div>
+                <img class="discount__image" src="img/dis-2.jpg" alt="kvas photo">
+            </div>
+        </section>
+
+        <section class="about-work">
+            <h3 class="about-work__title">Как работаем</h3>
+            <div class="about-work__stages">
+                <div class="stage">
+                    <p class="stage__title">ШАГ 1</p>
+                    <p class="stage__text">Ваше обращение</p>
+                    <p class="stage__more-det">Оставляете заявку. Мы ее обрабатываем</p>
+                </div>
+                <div class="stage">
+                    <p class="stage__title">ШАГ 2</p>
+                    <p class="stage__text">Расчет стоимости</p>
+                    <p class="stage__more-det">Согласовываем с клиентом цену на наш продукт</p>
+                </div>
+                <div class="stage">
+                    <p class="stage__title">ШАГ 3</p>
+                    <p class="stage__text">Сбор и отправка</p>
+                    <p class="stage__more-det">Начинаем собирать ваш заказ. Отправляем в ближайшее время</p>
+                </div>
+                <div class="stage">
+                    <p class="stage__title">ШАГ 4</p>
+                    <p class="stage__text">Заказ прибыл</p>
+                    <p class="stage__more-det">Наслаждайтесь квасом</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="slider">
+            <h3 class="slider__title">Отзывы</h3>
+            <div class="slider-container">
+                <div class="slider__reviews">
+                    <blockquote class="review">
+                        <p class="review__text">Квас великолепен. Огромное спасибо!!!</p>
+                        <img class="review__stars" src="img/stars.png" alt="звезды">
+                        <cite class="review__author">Иван Петров</cite>
+                    </blockquote>
+                    <blockquote class="review">
+                        <p class="review__text">Обязательно будем заказывать еще. Очень понравилось!</p>
+                        <img class="review__stars" src="img/stars.png" alt="звезды">
+                        <cite class="review__author">Марина Авдеева</cite>
+                    </blockquote>
+                    <blockquote class="review">
+                        <p class="review__text">Лучшее, что я только пробовал</p>
+                        <img class="review__stars" src="img/stars.png" alt="звезды">
+                        <cite class="review__author">Василий Сидоров</cite>
+                    </blockquote>
+                </div>
+                <button class="prev-btn">&#8249;</button>
+                <button class="next-btn">&#8250;</button>
+            </div>
+        </section>
+
+        <section>
+            <iframe class="map"
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A7c1b9ab17f413155cb28d633c074c65a63643ae6d219cde2b06289aa1d8d5c4b&amp;source=constructor"
+                frameborder="0">
+            </iframe>
+            <div class="contacts__container">
+                <div class="contacts">
+                    <h3 class="contacts__title">Контакты</h3>
+                    <p class="contacts__item">Телефон: <a class="best" href="#">+7 (999) 000-00-00</a></p>
+                    <p class="contacts__item">Почта: kvasVkusnoVsemSovetyu@test.ru</p>
+                    <p class="contacts__item">Время работы:<br>
+                        Ежедневно с 8:00 до 22:00
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__rules">
+            <img class="footer__image" src="img/logo.png" alt="logo company">
+            <p class="footer__promo">
+                ©Заказ кваса по всей стране<br>
+                Все права защищены.
+            </p>
+            <p class="footer__text"><a class="best" href="#">Политика конфиденциальности</a></p>
+        </div>
+        <div class="footer__order">
+            <h3 class="footer__title">Заказ кваса</h3>
+            <ul class="footer__list">
+                <li class="footer__item">Онлайн</li>
+                <li class="footer__item">Самовывоз</li>
+                <li class="footer__item">Оптовая закупка</li>
+                <li class="footer__item">По собственному рецепту</li>
+                <li class="footer__item">Звоните</li>
+            </ul>
+        </div>
+        <div class="footer__about-service">
+            <h3 class="footer__title">О сервисе</h3>
+            <ul class="footer__list">
+                <li class="footer__item">Быстро</li>
+                <li class="footer__item">Вкусно</li>
+                <li class="footer__item">Качественно</li>
+                <li class="footer__item">Недорого</li>
+                <li class="footer__item">Море эмоций</li>
+            </ul>
+        </div>
+        <div class="footer__advice">
+            <h3 class="footer__title">Обращайтесь к нам</h3>
+            <p class="footer__promo">Не нашли то, что искали позвоните на
+                горячую линию и наши специалисты
+                помогут решить Ваш вопрос:<br><br>
+                <a class="best" href="#">+7 (999) 00-99-99</a>
+            </p>
+            <p class="footer__text">Доставка по городу</p>
+        </div>
+    </footer>
+
+    <div class="more__details">
+        <p class="details__text">Оставьте заявку на сайте и получите скидку 20%</p>
+        <button class="details__button">Заказать</button>
+    </div>
+
+    <div class="more__details-mobile">
+        <button class="details__call">Позвонить</button>
+        <button class="details__menu">Меню</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
